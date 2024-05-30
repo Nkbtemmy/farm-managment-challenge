@@ -1,0 +1,20 @@
+version: "3"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: "farm-frontend-app"
+    restart: on-failure
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - .:/usr/src/app
+    networks:
+      - farm-frontend-networks
+
+networks:
+  farm-frontend-networks:
+    driver: bridge
