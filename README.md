@@ -16,7 +16,7 @@ To get started with the Farmer Ordering System, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone [https://github.com/nicele08/farmflow-frontend](https://github.com/Nkbtemmy/farm-managment-frontend).git
+   git clone https://github.com/Nkbtemmy/farm-managment-frontend.git
    ```
 
 2. Install the dependencies:
